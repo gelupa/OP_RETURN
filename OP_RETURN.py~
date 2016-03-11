@@ -45,12 +45,12 @@ OP_RETURN_BITCOIN_USE_CMD=True # use command-line instead of JSON-RPC?
 if OP_RETURN_BITCOIN_USE_CMD:
 	OP_RETURN_BITCOIN_PATH='C:/Program Files/Bitcoin/daemon/bitcoin-cli.exe'
 else:
-	OP_RETURN_BITCOIN_PORT='' # leave empty to use default port for mainnet/testnet
-	OP_RETURN_BITCOIN_USER='' # leave empty to read from ~/.bitcoin/bitcoin.conf (Unix only)
-	OP_RETURN_BITCOIN_PASSWORD='' # leave empty to read from ~/.bitcoin/bitcoin.conf (Unix only)
+	OP_RETURN_BITCOIN_PORT='8332' # leave empty to use default port for mainnet/testnet
+	OP_RETURN_BITCOIN_USER='pluto' # leave empty to read from ~/.bitcoin/bitcoin.conf (Unix only)
+	OP_RETURN_BITCOIN_PASSWORD='33kjf90v11ndv8' # leave empty to read from ~/.bitcoin/bitcoin.conf (Unix only)
 
-OP_RETURN_CHANGE_ADDR='your change addr'
-OP_RETURN_WALLET_PASS='your wallet pass' 
+OP_RETURN_CHANGE_ADDR='1PdwnNWiJS9nboi3spzUkkSkkT5LQFc235'
+OP_RETURN_WALLET_PASS='CjpWcG2ZNS3ujfWEKNmA4BiW' 
 OP_RETURN_LOG_FILE='txnIdLog.txt'
 # zhuli: modify end
 
